@@ -1,1 +1,3 @@
-
+Task: Find the smallest ingeter that is gretaer than a given number, 
+that doesnt contain two identical consecuitve digits. 
+Assumptions : N is an integer in the range of (1,1000000000).
