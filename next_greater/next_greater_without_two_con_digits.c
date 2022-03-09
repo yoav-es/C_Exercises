@@ -42,10 +42,11 @@ int helper2(int number, int ind)
     sprintf(data, "%d", number);
     int length = strlen(data);
     int k;
-
+    int l = 0;
     for(int i = length-1; i > length - ind  ; i--)
     {
-       data[i] = '0';
+       data[i] = (l == 0) ? '1' : '0';
+       l = (l==0) ? 1 : 0;
     }
     k = strtol(data, &ptr,10);
     return k;
