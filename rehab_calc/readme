@@ -1,0 +1,11 @@
+Rehabilitation Calculator exercise 
+input ->  A = array of integers, n = size of array, X - numbers of appointments , Y numbers of days between each appointment
+Output-> minimal days to complete X rehabilitations
+Assumptions – N, X in range of [2,200000]
+Element in A in range of [1,1000]
+Y in range of [1,199,999]
+N > (X-1) *Y
+Examples:
+A [4,2,3,7], X = 2, Y = 2 -> result = 7
+A [4,2,3,7], X = 2, Y = 3 -> result = 17
+A [4,2,3,7], X = 3, Y = 2 -> result = 6
